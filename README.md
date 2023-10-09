@@ -29,6 +29,7 @@ Este projeto tem como objetivo aplicar várias técnicas de desenvolvimento de a
 - Versionado e gerenciado com Git para uma colaboração eficiente e controle do código-fonte.
 
 # Imagens 
-![Home Weather App Image](https://github.com/Matheus-Sousa-Matos/Weather-App-Study/assets/69324938/17eb4b22-24be-426d-b6c4-3c1b9228a3d3)
+![Home Weather App Image](https://github.com/Matheus-Sousa-Matos/Weather-App-Study/assets/69324938/e862ff7b-8c12-4068-8e95-fc9f94b3d47c)
+
 
 Sinta-se à vontade para enriquecer a seção "Sobre o Projeto" com detalhes específicos sobre as características, objetivos e quaisquer outros insights ou realizações relacionados ao projeto. Isso proporcionará uma visão completa para potenciais colaboradores ou usuários.
