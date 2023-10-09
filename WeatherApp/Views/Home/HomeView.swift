@@ -73,39 +73,39 @@ struct HomeView: View {
 //MARK: - Vars default values
 extension HomeView {
     var cityName: String {
-        return viewModel.weatherData?.name ?? "Rio de Janeiro"
+        return viewModel.weatherData.name
     }
     
     var temperature: String {
-        return viewModel.weatherData?.main.temp.formatWithInt() ?? "0"
+        return viewModel.weatherData.main.temp.formatWithInt()
     }
     
     var weatherMain: String {
-        return viewModel.weatherData?.weather.first?.main ?? "Ceu Limpo"
+        return viewModel.weatherData.weather.first?.main ?? "Ceu Limpo"
     }
     
     var weatherDescription: String {
-        return viewModel.weatherData?.weather.first?.description ?? "Céu Limpo com poucas nuvens"
+        return viewModel.weatherData.weather.first?.description ?? "Céu Limpo com poucas nuvens"
     }
     
     var tempMax: Double {
-        return viewModel.weatherData?.main.tempMax ?? 0.0
+        return viewModel.weatherData.main.tempMax
     }
     
     var tempMin: Double {
-        return viewModel.weatherData?.main.tempMin ?? 0.0
+        return viewModel.weatherData.main.tempMin
     }
     
     var windSpeed: Double {
-        return viewModel.weatherData?.wind.speed ?? 0.0
+        return viewModel.weatherData.wind.speed
     }
     
     var humidity: Double {
-        return Double(viewModel.weatherData?.main.humidity ?? 0)
+        return Double(viewModel.weatherData.main.humidity)
     }
     
     var feelsLike: Double {
-        return viewModel.weatherData?.main.feelsLike ?? 0.0
+        return viewModel.weatherData.main.feelsLike
     }
 }
 

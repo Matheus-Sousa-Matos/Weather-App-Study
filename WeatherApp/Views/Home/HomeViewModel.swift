@@ -14,7 +14,7 @@ enum Units: String {
 
 class HomeViewModel: ObservableObject {
     
-    @Published var weatherData: WeatherData?
+    @Published var weatherData: WeatherData = WeatherData.empty()
     @Published var userName: String = "Matheus"
     @Published var isLoading = false
     

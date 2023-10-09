@@ -65,17 +65,3 @@ struct Wind: Codable {
     let speed: Double
     let deg: Int
 }
-
-//MARK: - Mocks
-extension Main {    
-    static public func with(
-        temp: Double = 22.0,
-        feelsLike: Double = 24.0,
-        tempMin: Double = 17.0,
-        tempMax: Double = 33.0,
-        pressure: Int = 10,
-        humidity: Int = 25
-    ) -> Self {
-        Main(temp: temp, feelsLike: feelsLike, tempMin: tempMin, tempMax: tempMax, pressure: pressure, humidity: humidity)
-    }
-}
